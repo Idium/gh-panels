@@ -1,9 +1,10 @@
 @import '../common.scss';
 
-.gh .panel-body {
+.gh.panel-body {
   background: $white;
   padding: 1rem;
   width: 100%;
+  box-sizing: border-box;
 
   @include transition;
   @include standardBorder;

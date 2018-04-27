@@ -7,6 +7,7 @@ import './styles.scss';
 import {
   Panel,
   PanelBody,
+  PanelHeader,
   Column,
   Row
 } from '../src';
@@ -75,6 +76,9 @@ const demo = () => {
       <Row>
         <Column>
           <Panel>
+            <PanelHeader>
+              Bagel
+            </PanelHeader>
             <PanelBody>
               <img src="https://i.imgur.com/XF7bcA6.jpg" alt=""/>
             </PanelBody>
@@ -82,6 +86,9 @@ const demo = () => {
         </Column>
         <Column>
           <Panel>
+            <PanelHeader>
+              Burger
+            </PanelHeader>
             <PanelBody>
               <img src="https://i.imgur.com/bu9C7jY.jpg" alt=""/>
             </PanelBody>
@@ -89,6 +96,9 @@ const demo = () => {
         </Column>
         <Column>
           <Panel>
+            <PanelHeader>
+              Bagel
+            </PanelHeader>
             <PanelBody>
               <img src="https://i.imgur.com/qePfRtH.jpg" alt=""/>
             </PanelBody>
@@ -96,6 +106,9 @@ const demo = () => {
         </Column>
         <Column>
           <Panel>
+            <PanelHeader>
+              Burger
+            </PanelHeader>
             <PanelBody>
               <img src="https://i.imgur.com/xfPVO2e.jpg" alt=""/>
             </PanelBody>
