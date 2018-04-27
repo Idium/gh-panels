@@ -13,10 +13,23 @@ $urine: #ffc600;
 $darkgray: #5b6378;
 
 $gray: #8C96AB;
+$bordergray: #515663;
 $lightgray:	#f5f6fa;
 
 $white: #FFF;
 $black: #000;
+
+@mixin borderRadius {
+  border-radius: 0.5rem;
+}
+
+@mixin standardBorder {
+  border: 1px solid rgba($bordergray, .09);
+}
+
+@mixin transition {
+  transition: 0.25s;
+}
 
 .gh {
   font-family: "Fira Sans", sans-serif;

@@ -1,7 +1,7 @@
 .gh.column {
   display: flex;
   flex-flow: column;
-  flex-flow: 1 1 auto;
+  flex: 1 1 auto;
 
   &:not(:first-child) {
     margin-left: 1rem;
