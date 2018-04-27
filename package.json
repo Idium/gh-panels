@@ -4,7 +4,9 @@
   "description": "Panel components used in the Growth House dashboard",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "demo": "webpack -p --progress --colors --env=prod",
+    "dev": "webpack-dev-server --inline --env=dev"
   },
   "repository": {
     "type": "git",

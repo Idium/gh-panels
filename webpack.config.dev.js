@@ -15,13 +15,14 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: 'http://localhost:8080/'
   },
+  mode: 'development',
   devServer: {
     hot: true,
     contentBase: DEMO_DIR,
     publicPath: 'http://localhost:8080/'
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.jsx?/,
         loader: 'babel-loader'
