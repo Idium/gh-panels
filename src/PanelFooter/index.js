@@ -9,7 +9,7 @@ const PanelFooter = props => {
   } = props;
 
   return (
-    <div className="gh panel-footer">
+    <div className="gh gh-panel-footer">
       { children }
     </div>
   );

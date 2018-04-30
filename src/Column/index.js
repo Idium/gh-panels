@@ -9,7 +9,7 @@ const Column = props => {
   } = props;
 
   return (
-  <div className="gh column">
+  <div className="gh gh-column">
     { children }
   </div>
   );

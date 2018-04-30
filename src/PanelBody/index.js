@@ -10,7 +10,7 @@ const PanelBody = props => {
   } = props;
 
   return (
-    <div className="gh panel-body" style={style}>
+    <div className="gh gh-panel-body" style={style}>
       { children }
     </div>
   );

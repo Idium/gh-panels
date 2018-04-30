@@ -9,7 +9,7 @@ const Row = props => {
   } = props;
 
   return (
-    <div className="gh row">
+    <div className="gh gh-row">
       { children }
     </div>
   );

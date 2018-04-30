@@ -9,7 +9,7 @@ const Panel = props => {
   } = props;
 
   return (
-    <div className="gh panel">
+    <div className="gh gh-panel">
       { children }
     </div>
   );
