@@ -5,6 +5,15 @@ import PanelHeader from './PanelHeader';
 import PanelFooter from './PanelFooter';
 import Row from './Row';
 
+export default {
+  Column,
+  Panel,
+  PanelBody,
+  PanelHeader,
+  PanelFooter,
+  Row
+};
+
 export {
   Column,
   Panel,
