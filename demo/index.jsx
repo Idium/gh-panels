@@ -8,6 +8,7 @@ import {
   Panel,
   PanelBody,
   PanelHeader,
+  PanelFooter,
   Column,
   Row
 } from '../src';
@@ -30,7 +31,7 @@ const demo = () => {
       <Row>
         <Panel>
           <PanelBody style={{opacity:0.5}}>
-            test
+            Opacity controlled by style attribute
           </PanelBody>
         </Panel>
       </Row>
@@ -60,8 +61,11 @@ const demo = () => {
         </Column>
         <Column>
           <Panel>
+            <PanelHeader>
+              Header
+            </PanelHeader>
             <PanelBody>
-              row 2, column 2
+              Support for rows where only some items have headers
             </PanelBody>
           </Panel>
         </Column>
@@ -112,6 +116,21 @@ const demo = () => {
             <PanelBody>
               <img src="https://i.imgur.com/xfPVO2e.jpg" alt=""/>
             </PanelBody>
+          </Panel>
+        </Column>
+      </Row>
+      <Row>
+        <Column>
+          <Panel>
+            <PanelHeader>Panel Header</PanelHeader>
+            <PanelBody></PanelBody>
+            <PanelFooter>Panel Footer</PanelFooter>
+          </Panel>
+        </Column>
+        <Column>
+          <Panel>
+            <PanelBody></PanelBody>
+            <PanelFooter>Panel Footer</PanelFooter>
           </Panel>
         </Column>
       </Row>
