@@ -11,7 +11,7 @@ import {
   PanelFooter,
   Column,
   Row
-} from '../';
+} from '../src';
 
 const render = Component => {
   ReactDOM.render(
