@@ -1,6 +1,6 @@
 {
   "name": "gh-panels",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Panel components used in the Growth House dashboard",
   "main": "index.js",
   "scripts": {
