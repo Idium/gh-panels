@@ -19,7 +19,7 @@
     "components"
   ],
   "author": "nukeop",
-  "license": "UNLICENSED",
+  "license": "AGPL-3.0",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
